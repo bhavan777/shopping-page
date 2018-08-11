@@ -11,7 +11,7 @@ Stack used:
 
 only required field validations added in the util/formvalidator.js file for now, more rules can be added as required.
 
-Any no empty username and password would fetch sample data from mock server.
+Any no empty username and password would fetch sample data from mock server with 2 second delay to emulate a longer api call, inputs are disabled to not let the user to edit/modiy details enter while the form loads the response for better UI reasons.
 
 To Run the app on local,
 1. clone this repo,

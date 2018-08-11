@@ -34,7 +34,8 @@ export default class InputField extends Component {
     if (
       props &&
       (props.error.hasError !== state.error.hasError ||
-        props.value !== state.value)
+        props.value !== state.value ||
+        props.disabled !== state.disabled)
     ) {
       return {
         ...props,
@@ -58,6 +59,7 @@ export default class InputField extends Component {
         <input
           onBlur={this.onBlur}
           onFocus={this.onFocus}
+          disabled={this.state.disabled}
           onChange={this.onChange}
           className="input-element"
           id={this.state.id}

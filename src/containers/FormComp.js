@@ -93,10 +93,12 @@ class FormComp extends Component {
           <p className="tagline">Unlock awesome features!</p>
           <div className="input-group">
             <InputField
+              disabled={this.state.isFormSubmitting}
               handleChange={this.handleChange}
               {...this.state.formData[0]}
             />
             <InputField
+              disabled={this.state.isFormSubmitting}
               handleChange={this.handleChange}
               {...this.state.formData[1]}
             />

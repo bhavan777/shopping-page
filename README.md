@@ -4,10 +4,14 @@ Stack used:
 
 1.babel for transpiling es6 suntax used in the app
 
-2.plain css
+2.plain css & spinkit spinner used for loading state
 
 3.webpack dev server for development
 
+
+only required field validations added in the util/formvalidator.js file for now, more rules can be added as required.
+
+Any no empty username and password would fetch sample data from mock server.
 
 To Run the app on local,
 1. clone this repo,

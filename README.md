@@ -1,8 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Stack used :
-1.babel for enabling es6 fetures used inside
+Stack used:
+
+1.babel for transpiling es6 suntax used in the app
+
 2.plain css
+
 3.webpack dev server for development
 
 

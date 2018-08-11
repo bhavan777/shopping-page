@@ -5,6 +5,7 @@
   flex-flow: column;
   text-align: center;
   width: 400px;
+  box-shadow: 0px 0px 4.75px 0.25px #f5f5f5;
   border: 3px solid #f5f5f5;
 }
 .form .input-group {
@@ -63,7 +64,7 @@
   cursor: default;
   font-style: italic;
   transform: translate(0, 0);
-  font-weight: bold;
+  font-weight: 600;
 }
 .input-field.active .input-element {
   border: 1px solid #05539f;
@@ -154,4 +155,5 @@ a {
   color: #fff;
   text-align: center;
   outline: 0;
+  cursor: pointer;
 }

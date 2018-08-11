@@ -105,12 +105,7 @@ class FormComp extends Component {
           </div>
           <div className="form-text-row">
             <CheckBox fieldData={this.state.formData[2]} />
-            <a
-              className="forgot-password-link"
-              href="google.com/forgotpassword"
-            >
-              Forgot Password ?
-            </a>
+            <a className="forgot-password-link">Forgot Password ?</a>
           </div>
           <button type="submit" className="form-submit-btn">
             {this.state.isFormSubmitting ? (

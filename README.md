@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Stack used:
+
+1.babel for transpiling es6 suntax used in the app
+
+2.plain css
+
+3.webpack dev server for development
+
+
 To Run the app on local,
 1. clone this repo,
 2. npm install

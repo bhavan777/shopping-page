@@ -1,0 +1,33 @@
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 70px auto;
+}
+.products .product {
+  max-width: 220px;
+  height: 275px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.product .product-image {
+  overflow: hidden;
+  max-width: 100%;
+  border: 3px solid #f5f5f5;
+}
+.product .product-image img {
+  max-width: 100%;
+}
+
+.product .product-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #414141;
+  margin: 20px 0 10px 0;
+}
+
+.product .product-price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
